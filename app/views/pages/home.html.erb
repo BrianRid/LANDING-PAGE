@@ -1,2 +1,36 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<div class="container-fluid">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1404&q=80);">
+    <h1 class="pl-3">Zenloc</h1>
+    <p class='pl-3'>Repenser la gestion locative pour vous concentrer sur vos activités clés</p>
+    <div class="container form pt-3">
+      <%= render 'contacts/new' %>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <h2>Grâce aux services de Zenloc, vous allez pouvoir : </h2>
+    <div class="card-services">
+      <div class="header">
+        <h3>Gagner du temps</h3>
+      </div>
+      <div class="content">
+      </div>
+    </div>
+    <div class="card-services">
+      <div class="header">
+        <h3>Gagner en visiblité</h3>
+      </div>
+      <div class="content">
+      </div>
+    </div>
+    <div class="card-services">
+      <div class="header">
+        <h3>Gagner en efficacité </h3>
+      </div>
+      <div class="content">
+      </div>
+    </div>
+  </div>
+</div>
+
