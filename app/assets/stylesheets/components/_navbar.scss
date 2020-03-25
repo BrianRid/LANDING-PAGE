@@ -1,6 +1,19 @@
 .navbar {
   justify-content: space-between;
-  background: white;
+  background-color: black;
+}
+
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  position: relative;
+  top: 10px;
+  right: -50%;
+  font-size: 30px;
+  color: white;
 }
 
 .navbar .navbar-collapse {
