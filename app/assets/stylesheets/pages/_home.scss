@@ -57,31 +57,38 @@
 
 }
 .card-services {
-  flex-basis: calc(100% - 20px);
+  flex-basis: calc(25% - 5px);
   // width: 100%;
   margin-top: 10px;
   margin-right: 5px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
-  border: solid 1px rgb(3, 75, 72);
   border-radius: 5px;
   box-shadow: 5px 5px 5px 0px rgba(212, 212, 212, 1);
 }
 //Design des cards
 
 .card-services .header {
-  height: 30%;
+  height: 15%;
   width: 100%;
-    h3 {
-      font-size: 20px;
-      font-weight: bold;
-      padding-top: 10px;
-      text-align: center;
-      color: rgb(3, 75, 72);
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    color: rgb(3, 75, 72);
+    border-bottom: 1px solid rgb(3, 75, 72);
     }
 }
 
 .card-services .content {
+  height: 85%;
+  width: 100%;
+    p {
+      font-size: 15px;
+      font-weight: 1px;
+      padding: 15px 15px 15px 15px;
+    }
 
 }
 
@@ -103,4 +110,31 @@
   height: 100px;
   border-radius: 50%;
   background-color: cadetblue;
+}
+
+
+// media Query for Grid card Responsivness
+
+@media(max-width: 1333px) {
+  .card-services {
+    flex-basis: 33.33%;
+  }
+}
+
+@media(max-width: 1073px) {
+  .card-services {
+    flex-basis: 33.33%;
+  }
+}
+
+@media(max-width: 815px) {
+  .card-services {
+    flex-basis: 50%;
+  }
+}
+
+@media(max-width: 555px) {
+  .card-services {
+    flex-basis: 100%;
+  }
 }
