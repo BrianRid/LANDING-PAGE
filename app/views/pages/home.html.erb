@@ -10,58 +10,31 @@
     <h2>Zenloc vous permet de </h2>
   </div>
 
+<%# Container des cards value proposition %>
   <div class="card-container">
-    <div class="card-services">
-      <div class="header">
-        <h3>Gagner du temps</h3>
-      </div>
-      <div class="content">
-        <p class="text-content">Grace à une plateforme mise à disposition du locataire, pour lui faciliter la déclaration d'incident en toute autonomie.<br>
-        En quelques clics l'incident est préqualifé, le locataire entre en contact avec vos artisans de confiance et programme une intervention. <br>
-        Un fois l'intervention réalisée, il valide la réparation et vous êtes directement informés.</p>
-      </div>
-    </div>
-    <div class="card-services">
-      <div class="header">
-        <h3>Gagner en visiblité</h3>
-      </div>
-      <div class="content">
-        <p class="text-content"> Pilotez l'ensemble de votre parc de gestion sur un dashboard centralisé.<br>
-        Vous y trouverez les informations clés sur les propriétés et sur les locataires
-
-        </p>
-      </div>
-    </div>
-    <div class="card-services">
-      <div class="header">
-        <h3>Gagner en efficacité </h3>
-      </div>
-      <div class="content">
-        <p class="text-content"></p>
-      </div>
-    </div>
-    <div class="card-services">
-      <div class="header">
-        <h3>Gagner en efficacité </h3>
-      </div>
-      <div class="content">
-        <p class="text-content"></p>
-      </div>
-    </div>
-  </div>
-  <div class="timeline">
-  <div class="process">
-    <div class="steps">
-    </div>
-    <div class="steps">
-    </div>
-    <div class="steps">
-    </div>
-    <div class="steps">
-    </div>
-   </div>
+    <%= render 'shared/card-time' %>
+    <%= render 'shared/card-visibility' %>
+    <%= render 'shared/card-efficiency' %>
 
   </div>
+
+    <div class="timeline">
+      <h2></h2>
+        <div class="process">
+          <div class="steps">
+            <p>Etape 1<p>
+          </div>
+          <div class="steps">
+            <p>Etape 2</p>
+          </div>
+          <div class="steps">
+            <p>Etape 3</p>
+          </div>
+          <div class="steps">
+            <p>Etape 4</p>
+          </div>
+        </div>
+    </div>
 
 </div>
 
